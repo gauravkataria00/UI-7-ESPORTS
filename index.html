@@ -6,23 +6,28 @@
   <title>UI-7 eSPORTS Free Fire Paid Scrims</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>body { font-family: 'Roboto', sans-serif; }</style>
+  <meta name="description" content="Join UI-7 eSPORTS Free Fire paid scrims for BR, CS, and Lone Wolf. Entry fees 10-100 Rs. Practice and win prizes!">
+  <meta name="keywords" content="UI-7 eSPORTS, Free Fire, paid scrims, BR, CS, Lone Wolf, esports, India">
 </head>
-<body class="bg-gray-100">
+<body class="bg-gray-900 text-white">
   <!-- Header -->
-  <header class="bg-gradient-to-r from-red-500 to-orange-500 text-white text-center py-12">
-    <h1 class="text-4xl md:text-5xl font-extrabold">UI-7 eSPORTS</h1>
-    <p class="mt-2 text-lg">Paid Scrims for Free Fire BR & CS - Practice & Win!</p>
+  <header class="bg-red-900 text-white text-center py-12">
+    <h1 class="text-4xl md:text-5xl font-bold">UI-7 eSPORTS</h1>
+    <p class="mt-2 text-lg">Paid Scrims for Free Fire BR, CS & Lone Wolf</p>
   </header>
 
   <!-- Navigation -->
   <nav class="bg-gray-800 text-white p-4 sticky top-0 z-10">
     <div class="max-w-5xl mx-auto flex justify-center space-x-4 md:space-x-8">
-      <a href="#home" class="hover:text-orange-500">Home</a>
-      <a href="#register" class="hover:text-orange-500">Register</a>
-      <a href="#rules" class="hover:text-orange-500">Rules</a>
-      <a href="#stream" class="hover:text-orange-500">Live Stream</a>
-      <a href="#leaderboard" class="hover:text-orange-500">Leaderboard</a>
-      <a href="#contact" class="hover:text-orange-500">Contact</a>
+      <a href="#home" class="hover:text-red-500">Home</a>
+      <a href="cs-customs.html" class="hover:text-red-500">CS Customs</a>
+      <a href="br-customs.html" class="hover:text-red-500">BR Customs</a>
+      <a href="lone-wolf.html" class="hover:text-red-500">Lone Wolf</a>
+      <a href="#stream" class="hover:text-red-500">Live Stream</a>
+      <a href="#leaderboard" class="hover:text-red-500">Leaderboard</a>
+      <a href="#contact" class="hover:text-red-500">Contact</a>
     </div>
   </nav>
 
@@ -30,8 +35,8 @@
   <div class="max-w-5xl mx-auto p-4">
     <!-- Home Section -->
     <section id="home" class="mb-8">
-      <div id="countdown" class="text-center text-white bg-gradient-to-r from-red-500 to-orange-500 p-6 rounded-lg shadow-lg">
-        <h2 class="text-2xl font-bold mb-4">Next Scrim Starts In</h2>
+      <div id="countdown" class="text-center bg-red-800 p-6 rounded-lg shadow-lg">
+        <h2 class="text-2xl font-bold mb-4">Next Match Starts In</h2>
         <div class="flex justify-center space-x-4">
           <div><span id="days" class="text-4xl">0</span><br>Days</div>
           <div><span id="hours" class="text-4xl">0</span><br>Hours</div>
@@ -39,64 +44,55 @@
           <div><span id="seconds" class="text-4xl">0</span><br>Seconds</div>
         </div>
       </div>
-      <div class="mt-6 bg-white p-6 rounded-lg shadow-md">
-        <h2 class="text-2xl font-bold text-red-500 mb-4">Welcome to UI-7 eSPORTS Paid Scrims</h2>
-        <p class="mb-4">Join daily scrims in BR (Battle Royale) or CS (Clash Squad) for practice and prizes! Entry fee: 10-100 Rs per team.</p>
-        <p><strong>Next Scrim:</strong> BR Squad | <strong>Entry Fee:</strong> ₹50 | <strong>Prize Pool:</strong> Up to ₹800</p>
-        <a href="#register" class="mt-4 inline-block bg-orange-500 text-white px-6 py-2 rounded hover:bg-orange-600">Join Now</a>
+      <div class="mt-6 bg-gray-800 p-6 rounded-lg shadow-md">
+        <h2 class="text-2xl font-bold text-red-500 mb-4">Choose Your Scrim</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mt-4">
+          <a href="cs-customs.html" class="bg-gray-700 p-4 rounded-lg border-l-4 border-red-500 hover:bg-red-700 transition-transform hover:scale-105 text-center">
+            <h3 class="text-xl font-semibold">CS Paid Customs</h3>
+            <p class="mt-2 text-lg">Entry: ₹50</p>
+          </a>
+          <a href="br-customs.html" class="bg-gray-700 p-4 rounded-lg border-l-4 border-red-500 hover:bg-red-700 transition-transform hover:scale-105 text-center">
+            <h3 class="text-xl font-semibold">BR Paid Customs</h3>
+            <p class="mt-2 text-lg">Entry: ₹50</p>
+          </a>
+          <a href="lone-wolf.html" class="bg-gray-700 p-4 rounded-lg border-l-4 border-red-500 hover:bg-red-700 transition-transform hover:scale-105 text-center">
+            <h3 class="text-xl font-semibold">Lone Wolf Paid</h3>
+            <p class="mt-2 text-lg">Entry: ₹20</p>
+          </a>
+        </div>
       </div>
     </section>
 
-    <!-- Register Section -->
-    <section id="register" class="mb-8 bg-white p-6 rounded-lg shadow-md">
-      <h2 class="text-2xl font-bold text-red-500 mb-4">Register for Scrims</h2>
-      <p class="mb-4">Fill the form and pay via UPI. Get ready for BR or CS action!</p>
-      <iframe src="https://docs.google.com/forms/d/e/YOUR_GOOGLE_FORM_ID/viewform?embedded=true" width="100%" height="600" frameborder="0" class="mb-4">Loading...</iframe>
-      <p><strong>Payment Instructions:</strong> Pay ₹50 to UPI ID: ui7esports@upi. Email transaction ID to ui7esports@gmail.com with team name.</p>
-    </section>
-
-    <!-- Rules Section -->
-    <section id="rules" class="mb-8 bg-white p-6 rounded-lg shadow-md">
-      <h2 class="text-2xl font-bold text-red-500 mb-4">Scrim Rules</h2>
-      <ul class="list-disc pl-6">
-        <li>Modes: BR (Squad) or CS (4v4).</li>
-        <li>Team Size: 4 players + 1 sub.</li>
-        <li>No cheats; disqualify on spot.</li>
-        <li>Prize Split: Top 3 teams (e.g., ₹400/₹200/₹100).</li>
-        <li>16+ age; provide ID for prizes.</li>
-      </ul>
-    </section>
-
     <!-- Live Stream Section -->
-    <section id="stream" class="mb-8 bg-white p-6 rounded-lg shadow-md">
+    <section id="stream" class="mb-8 bg-gray-800 p-6 rounded-lg shadow-md">
       <h2 class="text-2xl font-bold text-red-500 mb-4">Watch Live Scrims</h2>
-      <p class="mb-4">Tune in for BR/CS action on YouTube!</p>
+      <p class="mb-4">Tune in for BR/CS/Lone Wolf action on YouTube!</p>
       <div class="relative pt-[56.25%]">
         <iframe src="https://www.youtube.com/embed/YOUR_YOUTUBE_STREAM_ID" class="absolute top-0 left-0 w-full h-full" frameborder="0" allowfullscreen></iframe>
       </div>
     </section>
 
     <!-- Leaderboard Section -->
-    <section id="leaderboard" class="mb-8 bg-white p-6 rounded-lg shadow-md">
+    <section id="leaderboard" class="mb-8 bg-gray-800 p-6 rounded-lg shadow-md">
       <h2 class="text-2xl font-bold text-red-500 mb-4">Latest Scrim Leaderboard</h2>
       <ul id="leaderboard-list" class="space-y-2">
-        <li class="flex justify-between p-2 bg-gray-100 rounded"><span>Team Booyah</span><span>50 Points</span></li>
-        <li class="flex justify-between p-2 bg-gray-100 rounded"><span>Fire Legends</span><span>40 Points</span></li>
-        <li class="flex justify-between p-2 bg-gray-100 rounded"><span>Shadow Squad</span><span>30 Points</span></li>
+        <li class="flex justify-between p-2 bg-gray-700 rounded"><span>Team Booyah (CS)</span><span>50 Points</span></li>
+        <li class="flex justify-between p-2 bg-gray-700 rounded"><span>Fire Legends (BR)</span><span>40 Points</span></li>
+        <li class="flex justify-between p-2 bg-gray-700 rounded"><span>Shadow (Lone)</span><span>30 Points</span></li>
       </ul>
     </section>
 
     <!-- Contact Section -->
-    <section id="contact" class="mb-8 bg-white p-6 rounded-lg shadow-md">
+    <section id="contact" class="mb-8 bg-gray-800 p-6 rounded-lg shadow-md">
       <h2 class="text-2xl font-bold text-red-500 mb-4">Contact Us</h2>
       <p>Email: ui7esports@gmail.com</p>
-      <p>Discord: Join our server <a href="YOUR_DISCORD_LINK" class="text-orange-500">here</a></p>
-      <p>Instagram: <a href="YOUR_INSTAGRAM_LINK" class="text-orange-500">@ui7esports</a></p>
+      <p>Discord: Join our server <a href="YOUR_DISCORD_LINK" class="text-red-500">gaviii_4x</a></p>
+      <p>Instagram: <a href="YOUR_INSTAGRAM_LINK" class="text-red-500">@gaviii_4x</a></p>
     </section>
   </div>
 
   <!-- Footer -->
-  <footer class="bg-gray-800 text-white text-center py-4">
+  <footer class="bg-gray-900 text-white text-center py-4">
     <p>&copy; 2025 UI-7 eSPORTS. All rights reserved.</p>
   </footer>
 

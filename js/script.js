@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
   // Countdown Timer
-  const targetDate = new Date('2025-08-20T20:00:00'); // Change to your scrim date
+  const targetDate = new Date('2025-08-20T20:00:00'); // Update to your next scrim date
   const updateCountdown = () => {
     const now = new Date();
     const difference = targetDate - now;
