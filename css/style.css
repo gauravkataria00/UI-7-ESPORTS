@@ -7,9 +7,6 @@ body {
 a {
   text-decoration: none;
 }
-#countdown, .section {
-  border: 2px solid #4682B4; /* Steel blue border */
-}
 #leaderboard-list li {
   transition: background-color 0.3s;
 }

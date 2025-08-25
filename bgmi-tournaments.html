@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UI-7 eSPORTS - BGMI Tournaments</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>body { font-family: 'Roboto', sans-serif; }</style>
+</head>
+<body class="bg-white text-gray-800">
+  <!-- Header -->
+  <header class="bg-sky-400 text-white text-center py-12">
+    <h1 class="text-4xl md:text-5xl font-bold">UI-7 eSPORTS</h1>
+    <p class="mt-2 text-lg">BGMI Tournaments</p>
+  </header>
+
+  <!-- Navigation -->
+  <nav class="bg-sky-500 text-white p-4 sticky top-0 z-10">
+    <div class="max-w-5xl mx-auto flex justify-center space-x-4 md:space-x-8">
+      <a href="index.html" class="hover:text-sky-200">Home</a>
+      <a href="free-fire-tournaments.html" class="hover:text-sky-200">Free Fire Tournaments</a>
+      <a href="bgmi-classic.html" class="hover:text-sky-200">Classic</a>
+      <a href="bgmi-tdm.html" class="hover:text-sky-200">TDM</a>
+      <a href="index.html#leaderboard" class="hover:text-sky-200">Leaderboard</a>
+      <a href="index.html#contact" class="hover:text-sky-200">Contact</a>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <div class="max-w-5xl mx-auto p-4">
+    <!-- Tournaments Section -->
+    <section id="tournaments" class="mb-8 bg-white p-6 rounded-lg shadow-md">
+      <h2 class="text-2xl font-bold text-sky-700 mb-4">BGMI Tournament Options</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
+        <a href="bgmi-classic.html" class="bg-sky-200 p-4 rounded-lg border-l-4 border-sky-600 hover:bg-sky-300 transition-transform hover:scale-105 text-center">
+          <h3 class="text-xl font-semibold">Classic Paid</h3>
+          <p class="mt-2 text-lg">Entry: ₹50</p>
+          <p>Prize: ₹400</p>
+        </a>
+        <a href="bgmi-tdm.html" class="bg-sky-200 p-4 rounded-lg border-l-4 border-sky-600 hover:bg-sky-300 transition-transform hover:scale-105 text-center">
+          <h3 class="text-xl font-semibold">TDM Paid</h3>
+          <p class="mt-2 text-lg">Entry: ₹30</p>
+          <p>Prize: ₹300</p>
+        </a>
+      </div>
+    </section>
+  </div>
+
+  <!-- Footer -->
+  <footer class="bg-sky-400 text-white text-center py-4">
+    <p>&copy; 2025 UI-7 eSPORTS. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
