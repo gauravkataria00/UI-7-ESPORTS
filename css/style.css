@@ -19,3 +19,12 @@ a {
 .card:hover {
   transform: scale(1.05);
 }
+@media (max-width: 768px) {
+  nav .max-w-5xl {
+    flex-direction: column;
+    gap: 0.5rem; /* replaces space-y-2 (8px) */
+  }
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
