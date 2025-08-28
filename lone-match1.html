@@ -25,7 +25,7 @@
   <nav class="bg-sky-500 text-white p-4 sticky top-0 z-10">
     <div class="max-w-5xl mx-auto flex justify-center space-x-4 md:space-x-8 flex-wrap">
       <a href="index.html" class="hover:text-sky-200">Home</a>
-      <a href="free-fire-tournaments.html" class="hover:text-sky-200">Free Fire Tournaments</a>
+       <a href="bgmi-tournaments.html" class="hover:text-sky-200">BGMI Tournaments</a>
       <a href="lone-wolf.html" class="hover:text-sky-200">Lone Wolf</a>
       <a href="index.html#leaderboard" class="hover:text-sky-200">Leaderboard</a>
       <a href="index.html#contact" class="hover:text-sky-200">Contact</a>
@@ -54,8 +54,18 @@
       <p class="mt-4 text-center"><strong>UPI Payment:</strong> Pay ₹20 to yourupi@upi. Scan the QR code below.</p>
       <img src="upi-qr-lone.png" alt="UPI QR Code for Lone Wolf Match 1" class="mx-auto mt-2 max-w-xs">
       <p class="mt-2 text-center">After payment, click the button below to reveal WhatsApp number for registration.</p>
-      <button onclick="revealWhatsApp()" class="mt-4 inline-block bg-sky-600 text-white px-6 py-2 rounded hover:bg-sky-700">Register</button>
-      <div id="whatsapp-section" style="display: none;" class="mt-4 text-center">
+      <button onclick="joinGroup()" 
+        class="mt-4 inline-block bg-sky-600 text-white px-6 py-2 rounded hover:bg-sky-700">
+  Register
+</button>
+
+<script>
+  function joinGroup() {
+    // Aapka WhatsApp group link
+    window.open("https://chat.whatsapp.com/IP7sqGa2NbC6idmKPQrb6Y?mode=ems_share_c", "_blank");
+  }
+</script>
+
         <p><strong>WhatsApp Number:</strong> +91 98765 43210</p>
         <p>Send your in game name, in game id, payment screenshot, and payment reference number.</p>
       </div>

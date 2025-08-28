@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>UI-7 eSPORTS - CS Match 1</title>
+  <title>UI-7 eSPORTS - Classic Match </title>
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" href="styles.css">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
@@ -18,7 +18,7 @@
   <!-- Header -->
   <header class="bg-sky-400 text-white text-center py-12">
     <h1 class="text-4xl md:text-5xl font-bold">UI-7 eSPORTS</h1>
-    <p class="mt-2 text-lg">CS Match 1</p>
+    <p class="mt-2 text-lg">Classic-Match </p>
   </header>
 
   <!-- Navigation -->
@@ -26,7 +26,7 @@
     <div class="max-w-5xl mx-auto flex justify-center space-x-4 md:space-x-8 flex-wrap">
       <a href="index.html" class="hover:text-sky-200">Home</a>
       <a href="free-fire-tournaments.html" class="hover:text-sky-200">Free Fire Tournaments</a>
-      <a href="cs-customs.html" class="hover:text-sky-200">CS Customs</a>
+      <a href="lone-wolf.html" class="hover:text-sky-200">Lone Wolf</a>
       <a href="index.html#leaderboard" class="hover:text-sky-200">Leaderboard</a>
       <a href="index.html#contact" class="hover:text-sky-200">Contact</a>
     </div>
@@ -37,25 +37,43 @@
     <!-- Match Info Section -->
     <section id="match-info" class="mb-8 bg-white p-6 rounded-lg shadow-md">
       <h2 class="text-2xl font-bold text-sky-700 mb-4">Match 1 Information</h3>
-      <p>Date: Coming Soon</p>
+      <p>Date: Coming </p>
       <p>Time: 00:00 PM IST</p>
       <p>Prize: ₹---</p>
-      <p>Entry: ₹-- per team</p>
-      <h3 class="text-xl font-bold text-sky-700 mt-4 mb-2">Allowed Guns</h3>
-      <p>AR, SMG, Shotgun (No Sniper)</p>
-      <h3 class="text-xl font-bold text-sky-700 mt-4 mb-2">Rules</h3>
+      <p>Entry: ₹25 per player</p>
+      <!-- <h3 class="text-xl font-bold text-sky-700 mt-4 mb-2">Allowed Guns</h3>
+      <p>AR, SMG (No Shotgun or Sniper)</p> -->
+      <h3 class="text-xl font-bold text-sky-700 mt-4 mb-2">Tournament Rules</h3>
       <ul class="list-disc pl-6 space-y-2">
-        <li>Custom headshot only.</li>
-        <li>No body shot allowed.</li>
-        <li>Players must send their details to WhatsApp number: in game name, in game id, payment screenshot, payment reference number.</li>
-        <li>No cheating or hacks allowed.</li>
-        <li>Respect all participants.</li>
+         <li>No cheating, hacks, or third-party tools are allowed.</li>
+  <li>Only players with 60+ level accounts are eligible to participate.</li>
+  <li>All players must send their details to the WhatsApp group: 
+      <ul class="list-disc pl-6">
+        <li>In-Game Name (IGN)</li>
+        <li>In-Game ID</li>
+        <li>Payment Screenshot</li>
+        <li>Payment Reference Number</li>
       </ul>
-      <p class="mt-4 text-center"><strong>UPI Payment:</strong> Pay ₹50 to yourupi@upi. Scan the QR code below.</p>
-      <img src="<a href='https://postimg.cc/zLyG8Rg8' target='_blank'><img src='https://i.postimg.cc/9fpRPdXR/Whats-App-Image-2025-08-25-at-3-36-33-PM.jpg' border='0' alt='Whats-App-Image-2025-08-25-at-3-36-33-PM'/></a>" alt="UPI QR Code for CS Match 1" class="mx-auto mt-2 max-w-xs">
+  </li>
+  <li>Participants must be 18+ years of age.</li>
+  <li>Respect all players and maintain proper sportsmanship.</li>
+</ul>
+      </ul>
+      <p class="mt-4 text-center"><strong>UPI Payment:</strong> please content the whatsapp Group </p>
+      <img src="upi-qr-lone.png" alt="UPI QR Code for classic-match" class="mx-auto mt-2 max-w-xs">
       <p class="mt-2 text-center">After payment, click the button below to reveal WhatsApp number for registration.</p>
-      <button onclick="revealWhatsApp()" class="mt-4 inline-block bg-sky-600 text-white px-6 py-2 rounded hover:bg-sky-700">Register</button>
-      <div id="whatsapp-section" style="display: none;" class="mt-4 text-center">
+      <button onclick="joinGroup()" 
+        class="mt-4 inline-block bg-sky-600 text-white px-6 py-2 rounded hover:bg-sky-700">
+  Register
+</button>
+
+<script>
+  function joinGroup() {
+    // Aapka WhatsApp group link
+    window.open("https://chat.whatsapp.com/IP7sqGa2NbC6idmKPQrb6Y?mode=ems_share_c", "_blank");
+  }
+</script>
+
         <p><strong>WhatsApp Number:</strong> +91 98765 43210</p>
         <p>Send your in game name, in game id, payment screenshot, and payment reference number.</p>
       </div>
