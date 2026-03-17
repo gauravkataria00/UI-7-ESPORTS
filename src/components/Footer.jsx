@@ -59,8 +59,8 @@ export default function Footer({ isDarkMode }) {
             <ul className="space-y-2 text-gray-400 text-sm">
               <li><a href="#" className="hover:text-red-500 transition">Help Center</a></li>
               <li><a href="#" className="hover:text-red-500 transition">Contact</a></li>
+              <li><a href="https://chat.whatsapp.com/IqSFO1yiYCxJb0zHSAj9WL" target="_blank" rel="noopener noreferrer" className="hover:text-green-500 transition">WhatsApp Group</a></li>
               <li><a href="#" className="hover:text-red-500 transition">Privacy</a></li>
-              <li><a href="#" className="hover:text-red-500 transition">Terms</a></li>
             </ul>
           </div>
         </div>
@@ -76,6 +76,7 @@ export default function Footer({ isDarkMode }) {
               <a href="#" className="text-gray-400 hover:text-red-500 transition font-semibold">Discord</a>
               <a href="#" className="text-gray-400 hover:text-red-500 transition font-semibold">YouTube</a>
               <a href="#" className="text-gray-400 hover:text-red-500 transition font-semibold">Instagram</a>
+              <a href="https://chat.whatsapp.com/IqSFO1yiYCxJb0zHSAj9WL" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-green-500 transition font-semibold">WhatsApp</a>
             </div>
           </div>
         </div>
