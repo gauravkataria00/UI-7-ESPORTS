@@ -1,0 +1,30 @@
+/* Custom styles to complement Tailwind */
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: #FFFFFF; /* White background */
+}
+a {
+  text-decoration: none;
+}
+#leaderboard-list li {
+  transition: background-color 0.3s;
+}
+#leaderboard-list li:hover {
+  background-color: #87CEEB; /* Sky blue hover */
+}
+.card {
+  transition: transform 0.2s;
+}
+.card:hover {
+  transform: scale(1.05);
+}
+@media (max-width: 768px) {
+  nav .max-w-5xl {
+    flex-direction: column;
+    gap: 0.5rem; /* replaces space-y-2 (8px) */
+  }
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
