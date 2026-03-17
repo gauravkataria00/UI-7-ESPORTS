@@ -1,0 +1,148 @@
+{
+  "scrims": [
+    {
+      "id": "scrim-ff-br-1",
+      "title": "Free Fire - Battle Royale Scrim",
+      "game": "Free Fire",
+      "mode": "Battle Royale",
+      "icon": "🔥",
+      "pricePerTeam": 500,
+      "maxTeams": 8,
+      "registeredTeams": 5,
+      "duration": "30 mins",
+      "prizePool": 4000,
+      "difficulty": "Intermediate",
+      "nextStart": "45 mins",
+      "description": "Competitive BR scrim with cash prizes",
+      "whatsappLink": "https://chat.whatsapp.com/ExampleGroupLink1",
+      "registeredPlayers": ["player1", "player2", "player3"]
+    },
+    {
+      "id": "scrim-bgmi-sq-1",
+      "title": "BGMI - Squad Ranked Scrim",
+      "game": "BGMI",
+      "mode": "Squad Ranked",
+      "icon": "🎮",
+      "pricePerTeam": 800,
+      "maxTeams": 10,
+      "registeredTeams": 7,
+      "duration": "45 mins",
+      "prizePool": 8000,
+      "difficulty": "Hard",
+      "nextStart": "2h 30m",
+      "description": "High-level squad scrim for serious players",
+      "whatsappLink": "https://chat.whatsapp.com/ExampleGroupLink2",
+      "registeredPlayers": ["player4", "player5"]
+    },
+    {
+      "id": "scrim-ff-lw-1",
+      "title": "Free Fire - Lone Wolf",
+      "game": "Free Fire",
+      "mode": "Solo Ranked",
+      "icon": "🔥",
+      "pricePerTeam": 300,
+      "maxTeams": 20,
+      "registeredTeams": 14,
+      "duration": "20 mins",
+      "prizePool": 6000,
+      "difficulty": "All Levels",
+      "nextStart": "20 mins",
+      "description": "Solo ranked scrim - prove yourself",
+      "whatsappLink": "https://chat.whatsapp.com/ExampleGroupLink3",
+      "registeredPlayers": ["player6", "player7", "player8"]
+    },
+    {
+      "id": "scrim-bgmi-duo-1",
+      "title": "BGMI - Duo Elimination Scrim",
+      "game": "BGMI",
+      "mode": "Duo",
+      "icon": "🎮",
+      "pricePerTeam": 600,
+      "maxTeams": 12,
+      "registeredTeams": 9,
+      "duration": "35 mins",
+      "prizePool": 7200,
+      "difficulty": "Intermediate",
+      "nextStart": "90 mins",
+      "description": "Fast-paced duo combat scrim",
+      "whatsappLink": "https://chat.whatsapp.com/ExampleGroupLink4",
+      "registeredPlayers": ["player9", "player10"]
+    },
+    {
+      "id": "scrim-csgo-1",
+      "title": "CS:GO - Competitive Match",
+      "game": "CS:GO",
+      "mode": "Competitive",
+      "icon": "🔫",
+      "pricePerTeam": 1200,
+      "maxTeams": 2,
+      "registeredTeams": 1,
+      "duration": "45 mins",
+      "prizePool": 2400,
+      "difficulty": "Expert",
+      "nextStart": "3h",
+      "description": "Professional-level CS:GO scrim",
+      "whatsappLink": "https://chat.whatsapp.com/ExampleGroupLink5",
+      "registeredPlayers": ["player11"]
+    },
+    {
+      "id": "scrim-bgmi-tri-1",
+      "title": "BGMI - Trio Team Scrim",
+      "game": "BGMI",
+      "mode": "Trio",
+      "icon": "🎮",
+      "pricePerTeam": 700,
+      "maxTeams": 15,
+      "registeredTeams": 11,
+      "duration": "40 mins",
+      "prizePool": 10500,
+      "difficulty": "Hard",
+      "nextStart": "45 mins",
+      "description": "Squad alternative for 3-player teams",
+      "whatsappLink": "https://chat.whatsapp.com/ExampleGroupLink6",
+      "registeredPlayers": ["player12", "player13"]
+    }
+  ],
+  "players": [
+    {
+      "id": "player1",
+      "name": "Player One",
+      "email": "player1@gmail.com",
+      "phone": "9876543210",
+      "joinedScrims": ["scrim-ff-br-1"],
+      "whatsappNumber": "919876543210"
+    },
+    {
+      "id": "player2",
+      "name": "Player Two",
+      "email": "player2@gmail.com",
+      "phone": "9876543211",
+      "joinedScrims": [],
+      "whatsappNumber": "919876543211"
+    }
+  ],
+  "teams": [
+    {
+      "id": "team1",
+      "name": "Shadow Legends",
+      "game": "Free Fire",
+      "members": 5,
+      "wins": 42,
+      "earnings": 250000,
+      "ranking": 1,
+      "badge": "🏆",
+      "whatsappGroup": "https://chat.whatsapp.com/TeamGroup1"
+    },
+    {
+      "id": "team2",
+      "name": "Phoenix Rising",
+      "game": "BGMI",
+      "members": 5,
+      "wins": 38,
+      "earnings": 210000,
+      "ranking": 2,
+      "badge": "👑",
+      "whatsappGroup": "https://chat.whatsapp.com/TeamGroup2"
+    }
+  ]
+}
